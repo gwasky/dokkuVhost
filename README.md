@@ -10,4 +10,8 @@ There are found at
 
 To add CORS support, replace your nginx.conf.sigil template with the one in the repo (ofcourse create a backup first)
 Rebuild the nginx.conf for your app domain using command below
+
+
 dokku nginx:build-config <app-name>
+  
+curl -I -H "Origin: <app-name1>" <app-name2>
