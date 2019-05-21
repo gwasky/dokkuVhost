@@ -14,4 +14,4 @@ Rebuild the nginx.conf for your app domain using command below
 
 dokku nginx:build-config app-name
   
-curl -I -H "Origin: <app-name1>" app-name2
+curl -I -H "Origin: app-name1" app-name2
